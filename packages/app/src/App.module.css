@@ -1,0 +1,11 @@
+.app {
+  background-color: #22272f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  position: relative;
+}

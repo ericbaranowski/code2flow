@@ -1,0 +1,12 @@
+{
+  "name": "sprite-redirect",
+  "version": 2,
+  "alias": ["sprite.tms.sh", "sprite.timo.codes", "sprite.timostaudinger.com"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {"Location": "https://sprite.link/$1"}
+    }
+  ]
+}

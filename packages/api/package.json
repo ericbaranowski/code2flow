@@ -1,0 +1,21 @@
+{
+  "name": "sprite-api",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "chrome-aws-lambda": "^1.17.1",
+    "mermaid": "^8.0.0",
+    "puppeteer-core": "^1.17.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/mermaid": "^8.0.2",
+    "@types/puppeteer-core": "^1.9.0",
+    "typescript": "^3.5.1"
+  }
+}

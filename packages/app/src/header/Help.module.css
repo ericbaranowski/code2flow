@@ -1,0 +1,11 @@
+.help {
+  display: flex;
+  text-align: right;
+}
+
+.help a {
+  margin: auto;
+  color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  font-weight: bold;
+}

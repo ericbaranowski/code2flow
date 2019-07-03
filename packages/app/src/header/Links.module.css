@@ -1,0 +1,15 @@
+.links {
+  display: flex;
+  margin-left: 40px;
+}
+
+.item {
+  margin: auto;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.item:last-of-type {
+  margin-right: 0;
+}

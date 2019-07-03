@@ -1,0 +1,33 @@
+.preview {
+  flex: 1;
+
+  overflow: auto;
+  height: calc(100% - 40px);
+  padding: 20px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-color: #fafafa;
+  background-image: linear-gradient(
+      45deg,
+      #eaeaea 25%,
+      transparent 25%,
+      transparent 75%,
+      #eaeaea 75%,
+      #eaeaea
+    ),
+    linear-gradient(
+      45deg,
+      #eaeaea 25%,
+      transparent 25%,
+      transparent 75%,
+      #eaeaea 75%,
+      #eaeaea
+    );
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}

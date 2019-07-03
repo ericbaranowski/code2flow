@@ -1,0 +1,41 @@
+<head>
+  <style>
+    .container {
+      display: inline-block;
+      padding: 40px;
+      background-color: hsla(0, 0%, 100%, 0)
+    }
+    .background {
+      display: inline-block;
+      padding: 30px;
+      background-color: white;
+      box-shadow: 0 0 30px #333;
+    }
+    .background svg {
+      width: 1000px !important;
+      max-width: initial !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="target" class="container"><div class='background mermaid'>
+    graph TB
+  c1-->a2
+
+  subgraph one
+    a1-->a2
+  end
+
+  subgraph two
+    b1-->b2
+  end
+  
+  subgraph three 
+    c1-->c2
+  end
+  </div></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({startOnLoad: true})
+  </script>
+</body>

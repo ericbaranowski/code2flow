@@ -1,0 +1,10 @@
+.title {
+  display: inline-block;
+  height: 80px;
+  flex: 1;
+  color: hsl(0, 0%, 95%);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 80px;
+  margin-left: 20px;
+}
