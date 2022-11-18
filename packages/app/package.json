@@ -18,7 +18,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-monaco-editor": "^0.26.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-split-pane": "^0.1.87",
     "typescript": "^3.5.1"
   },
